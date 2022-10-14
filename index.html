@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <body class="grid-container">
+        <header class="header">            
+            <h3>CompraFácil</h3>
+            <input type="text" class="buscador" placeholder="Busca aquí">
+            <a href="#">Inicio Sesion</a>
+            <a href="#">
+                <img src="./img/cart-dark.png" onclick="alerta()" alt="">
+            </a>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>        
+        </nav>
+        <aside class="sidebar">
+            SIDEBAR
+        </aside>
+        <main class="main">            
+                <div class="discover">
+                    <div class="discover-left">
+                        <p>Discover succulent varieties one pot or rack at a time!</p>
+                        <div class="discover-left-text">
+                            <p class="discover-text">Discover</p>
+                            <img src="./img/arrow-light.png" alt="">
+                        </div>
+                    </div>
+                    <div class="discover-rigth">
+                        <img id="imageNow" src="./img/succulents-1.jpg" alt="" onmouseover="changeImg()"
+                            onmouseout="this.src='./img/succulents-1.jpg'">
+                    </div>
+                </div>           
+        </main>
+        <footer class="footer">
+            FOOTER
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
