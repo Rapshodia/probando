@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/principal.css">
+    <title>Evaluacion II</title>
 </head>
-<body>
-    <body class="grid-container">
+<body class="grid-container">
         <header class="header">            
             <h3>CompraFácil</h3>
             <input type="text" class="buscador" placeholder="Busca aquí">
             <a href="#">Inicio Sesion</a>
             <a href="#">
-                <img src="./img/cart-dark.png" onclick="alerta()" alt="">
+                <img src="./images/cart-dark.png" onclick="alerta()" alt="">
             </a>
         </header>
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="catalogo.html">Catalogo</a></li>
-                <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                <li><a href="conocenos.html">Quienes Somos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>        
         </nav>
         <aside class="sidebar">
-            SIDEBAR
+            <div class="succulents-items">
+                <img src="./images/aeonium-s.jpg" alt="">
+                <p>Aeonium</p>
+            </div>
+            <div class="succulents-items">
+                <img src="./images/aloe-s.jpg" alt="">
+                <p>Aloe</p>
+            </div>
+            <div class="succulents-items">
+                <img src="./images/cactus-s.jpg" alt="">
+                <p>Cactus</p>
+            </div>
         </aside>
         <main class="main">            
                 <div class="discover">
@@ -34,18 +44,31 @@
                         <p>Discover succulent varieties one pot or rack at a time!</p>
                         <div class="discover-left-text">
                             <p class="discover-text">Discover</p>
-                            <img src="./img/arrow-light.png" alt="">
+                            <img src="./images/arrow-light.png" alt="">
                         </div>
                     </div>
-                    <div class="discover-rigth">
-                        <img id="imageNow" src="./img/succulents-1.jpg" alt="" onmouseover="changeImg()"
-                            onmouseout="this.src='./img/succulents-1.jpg'">
+                    <div class="discover-right">
+                        <img src="./images/succulents-1.jpg" alt="" onmouseover="changeImg()"
+                            onmouseout="this.src='./images/succulents-1.jpg'">
                     </div>
                 </div>           
         </main>
         <footer class="footer">
-            FOOTER
+            
+                <div>
+                    <h4>Contáctanos</h4>
+                    <p>Correo: lasmejoressuculentas@gmail.com</p>
+                    
+                </div>
+                <div>
+                    <h4>Síguenos</h4>
+                    
+                </div>
+                <div>
+                    <h4>Dirección</h4>
+                </div>
+            
         </footer>
         <script src="index.js"></script>
-    </body>
+</body>
 </html>

@@ -3,7 +3,7 @@ function alerta(){
 }
 function changeImg(e){
     
-    document.getElementById('imageNow').src="./img/succulents-2.jpg";     
+    document.getElementById('imageNow').src="./images/succulents-2.jpg";     
 }
 
 function eliminar(el){
